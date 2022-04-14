@@ -60,4 +60,3 @@ jobs:
             sudo docker pull sofyaserpinskaya/infra_actions
             sudo docker stop $(sudo docker ps -a -q)
             sudo docker run --rm -d -p 5000:5000 sofyaserpinskaya/infra_actions
-
